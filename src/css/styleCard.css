@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --txtColor: hsl(221, 100%, 96%);
+    --lavender: hsl(241, 100%, 89%);
+    --button: hsl(224, 30%, 27%);
+    --bgGra1: hsl(252, 100%, 67%);
+    --bgGra2: hsl(241, 81%, 54%);
+    --cirGra1: hsla(256, 72%, 46%, 1);
+    --cirGra2: hsla(241, 72%, 46%, 0);
+}
+
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.all-card {
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px 0 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    box-shadow: 20px 20px 65px 5px rgba(0, 0, 0, 0.24);
+}
+
+.results-card {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to bottom, var(--bgGra1),var(--bgGra2));
+    border-radius: 50px;
+}
+
+.title-results-card {
+    font-size: 2em;
+    color: var(--lavender);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.circle-results-card {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+    background: radial-gradient(circle at top, var(--cirGra1), var(--cirGra2));
+    margin-top: 80px;
+    margin-bottom: 80px;
+    transition: 0.3s all ease;
+}
+
+.circle-results-card:hover {
+    background: radial-gradient(circle at top, var(--cirGra2), var(--cirGra1));
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.2);
+}
+
+.circle-results-card h1 {
+    font-size: 5em;
+    font-weight: 800;
+    color: var(--txtColor);
+}
+
+.circle-results-card p {
+    color: var(--lavender);
+    font-weight: 700;
+}
+
+.text-results-card {
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.text-results-card h2 {
+    font-size: 2.3em;
+    color: var(--txtColor);
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.text-results-card p {
+    margin: auto;
+    justify-content: center;
+    color: var(--lavender);
+    font-size: 1.2em;
+}
+
+.summary-card {
+    text-align: center;
+    width: 100%;
+    padding-left: 40px;
+    background-color: var(--white);
+    font-weight: 500;
+}
+
+.title-summary-card {
+    font-size: 2em;
+    color: var(--button);
+    text-align: left;
+    font-weight: 800;
+    margin: 50px 0px;
+}
+
+.summary-card a {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 90%;
+    text-decoration: none;
+    background-color: var(--button);
+    padding: 20px;
+    border-radius: 50px;
+    transition: 0.3s all ease;
+}
+
+.summary-card a:hover {
+    background-color: var(--cirGra1);
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 1200px) {
+    .all-card {
+        flex-wrap: wrap;
+        width: 100%;
+        top: 0;
+        height: 0px;
+    }
+
+    .results-card {
+        width: 100%;
+        margin: auto;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .summary-card {
+        width: 100%;
+        margin: auto;
+    }
+
+    .circle-results-card {
+        margin: auto;
+        text-align: center;
+    }
+
+    .text-results-card {
+        width: 80%;
+    }
+
+    .summary-card a {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,42 @@
+:root {
+    --gray: hsla(224, 30%, 27%, 0.5);
+    --txt: hsla(224, 30%, 27%, 0.8);
+    --lavender: hsl(241, 100%, 89%);
+}
+
+.item-card {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.item-flex-left {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bolder;
+}
+
+.item-flex-left p {
+    margin-left: 20px;
+}
+
+.item-flex-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item-flex-right p{
+    color: var(--txt);
+    font-weight: 600;
+}
+

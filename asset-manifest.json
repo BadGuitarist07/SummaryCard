@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/BadGuitarist07/SummaryCard/static/css/main.127c4f26.css",
-    "main.js": "/BadGuitarist07/SummaryCard/static/js/main.c087175f.js",
-    "static/js/787.d92ad7cf.chunk.js": "/BadGuitarist07/SummaryCard/static/js/787.d92ad7cf.chunk.js",
-    "index.html": "/BadGuitarist07/SummaryCard/index.html",
-    "static/media/icon-memory.svg": "/BadGuitarist07/SummaryCard/static/media/icon-memory.22a9e0501e58960f3c349cd96fcf108f.svg",
-    "static/media/icon-visual.svg": "/BadGuitarist07/SummaryCard/static/media/icon-visual.61fc2697d5094b6e396276b1a1597c86.svg",
-    "static/media/icon-verbal.svg": "/BadGuitarist07/SummaryCard/static/media/icon-verbal.cc1204a0b0559da591a3ea6e99c5cf50.svg",
-    "static/media/icon-reaction.svg": "/BadGuitarist07/SummaryCard/static/media/icon-reaction.0c1d6b98b4559ba72276d9ceda14692d.svg",
-    "main.127c4f26.css.map": "/BadGuitarist07/SummaryCard/static/css/main.127c4f26.css.map",
-    "main.c087175f.js.map": "/BadGuitarist07/SummaryCard/static/js/main.c087175f.js.map",
-    "787.d92ad7cf.chunk.js.map": "/BadGuitarist07/SummaryCard/static/js/787.d92ad7cf.chunk.js.map"
+    "main.css": "/SummaryCard/static/css/main.127c4f26.css",
+    "main.js": "/SummaryCard/static/js/main.cbe3c0ed.js",
+    "static/js/787.d92ad7cf.chunk.js": "/SummaryCard/static/js/787.d92ad7cf.chunk.js",
+    "index.html": "/SummaryCard/index.html",
+    "static/media/icon-memory.svg": "/SummaryCard/static/media/icon-memory.22a9e0501e58960f3c349cd96fcf108f.svg",
+    "static/media/icon-visual.svg": "/SummaryCard/static/media/icon-visual.61fc2697d5094b6e396276b1a1597c86.svg",
+    "static/media/icon-verbal.svg": "/SummaryCard/static/media/icon-verbal.cc1204a0b0559da591a3ea6e99c5cf50.svg",
+    "static/media/icon-reaction.svg": "/SummaryCard/static/media/icon-reaction.0c1d6b98b4559ba72276d9ceda14692d.svg",
+    "main.127c4f26.css.map": "/SummaryCard/static/css/main.127c4f26.css.map",
+    "main.cbe3c0ed.js.map": "/SummaryCard/static/js/main.cbe3c0ed.js.map",
+    "787.d92ad7cf.chunk.js.map": "/SummaryCard/static/js/787.d92ad7cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.127c4f26.css",
-    "static/js/main.c087175f.js"
+    "static/js/main.cbe3c0ed.js"
   ]
 }
